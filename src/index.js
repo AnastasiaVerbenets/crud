@@ -1,0 +1,1 @@
+fetch('http://localhost:4040/students').then(r => r.json()).then(data => console.log(data)).catch(error => console.log(error))

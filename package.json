@@ -1,0 +1,32 @@
+{
+  "name": "parcel-project-template",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://AnastasiaVerbenets.github.io/crud",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /crud/", 
+    "server": "json-server --watch db.json --port 4040"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiaVerbenets/crud.git"
+  },
+  "keywords": [],
+  "author": "Anastasia Verbenets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiaVerbenets/crud/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "json-server": "^1.0.0-beta.3",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
