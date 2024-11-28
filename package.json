@@ -1,13 +1,13 @@
 {
-  "name": "work2",
+  "name": "crud",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/work2/",
+    "build": "vite build --base=/crud/",
     "preview": "vite preview",
-    "server" : "json-server --watch db.json -p 4040"
+    "server": "json-server --watch db.json -p 4040"
   },
   "devDependencies": {
     "glob": "^11.0.0",
